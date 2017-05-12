@@ -6,7 +6,7 @@ set -x
 rm -rf ~/.vimrc
 rm -rf ~/.vim
 
-sudo pacman -Sy --needed git clang cscope boost cmake wget python-markdown python2-markdown python-pygments python2-pygments 
+sudo pacman -Sy --needed git clang cscope boost cmake wget python-markdown python2-markdown python-pygments python2-pygments python-jedi python2-jedi
 
 
 cp ./vimrc ~/.vimrc
