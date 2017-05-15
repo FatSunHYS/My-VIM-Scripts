@@ -175,7 +175,7 @@ sed -i "/call vundle\#end()/i\Plugin \'vim-scripts\/cmake.vim--Alcin\'" ~/.vimrc
 
 
 # Install vim-colors-solarized
-git clone https://github.com/altercation/vim-colors-solarized ~/.vim/vim-colors-solarized
+git clone https://github.com/altercation/vim-colors-solarized ~/.vim/bundle/vim-colors-solarized
 
 sed -i "/call vundle\#end()/i\Plugin \'altercation\/vim-colors-solarized\'" ~/.vimrc
 
