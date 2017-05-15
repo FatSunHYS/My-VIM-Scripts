@@ -174,6 +174,18 @@ sed -i "/call vundle\#end()/i\Plugin \'vim-scripts\/cmake\'" ~/.vimrc
 sed -i "/call vundle\#end()/i\Plugin \'vim-scripts\/cmake.vim--Alcin\'" ~/.vimrc
 
 
+# Install vim-colors-solarized
+git clone https://github.com/altercation/vim-colors-solarized ~/.vim/vim-colors-solarized
+
+sed -i "/call vundle\#end()/i\Plugin \'altercation\/vim-colors-solarized\'" ~/.vimrc
+
+cat >> ~/.vimrc << EOF
+set background=dark
+colorscheme solarized
+
+EOF
+
+
 # Install tabular
 git clone https://github.com/godlygeek/tabular.git ~/.vim/bundle/tabular
 
